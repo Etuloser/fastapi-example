@@ -32,7 +32,3 @@ def setup_logging():
         enqueue=True,  # 异步写入，不影响接口性能
         serialize=True,  # 使用loguru内置的JSON序列化
     )
-
-
-# 初始化
-setup_logging()
